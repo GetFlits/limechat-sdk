@@ -7,7 +7,7 @@ use GuzzleHttp\Exception\RequestException;
 use Flits\Limechat\LimechatException;
 
 class LimechatProvider {
-    public $BASE_URL = "https://flow-builder.limechat.ai/builder/v1/cvf-event/";
+    public $BASE_URL = "https://flow-builder.limechat.ai/builder/v1/cvf-events/";
     public $HEADERS;
     public $EXTRA_CONFIG;
     public $client;
